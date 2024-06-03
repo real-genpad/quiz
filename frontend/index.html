@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title id="page-title">Атилогия Quiz</title>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" id="styles" href="styles/index.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <a href="/#/" class="logo">
+            <img src="images/logo.png" alt="Логотип">
+        </a>
+        <div class="profile" id="profile">
+            <img src="/images/profile.png" alt="profile" class="profile-image">
+            <div class="profile-info">
+                <div class="profile-user" id="profile-full-name">Roman</div>
+                <a href="/#/logout" class="profile-logout">Выйти</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="content"></div> <!--Сюда будем подставлять нужные шаблоны из папки templates -->
+
+<footer class="footer">
+    «АйтилогияQuiz» © Все права защищены / 2022
+</footer>
+
+
+<!--делаем spa-приложение. Загружается один файл, сразу все скрипты и при переходе на следующую страницу она не загружается, а подставляется
+ нужный html-шаблон из папки templates. Этот файл является одной из точек входа в приложение. Создаем папку src, в которой будем хранить исходники, а в ней папку components для модулей js, из
+  которых делаем классы. В этом файле до сборки подключен файл app.js, который запускает работу скриптов-->
+
+</body>
+</html>
